@@ -37,7 +37,10 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     font-size: calc(2 * calc(1rem + 4px));
-    line-height: 46.96px;;
+    background-image: linear-gradient(rgb(51, 168, 219), rgb(20, 114, 183));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .banner-content p {
@@ -57,6 +60,8 @@ body {
     margin: 0 auto 0;
     background-color: transparent;
     border: 2px solid rgba(51, 168, 219, 0.5);
+    border-image-source: linear-gradient(rgb(51, 168, 219), rgb(20, 114, 183));
+    border-image-slice: 1;
     padding: 16px 32px;
     color: whitesmoke;
     font-size: 1rem;
